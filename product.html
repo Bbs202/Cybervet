@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    
+       <!-- font awesome -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+       <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+       <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
+       integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" 
+       crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+    <title>CyberVet Technology</title>
+</head>
+<body class="flex flex-col items-center">
+    <header class="fixed bg-white w-full px-4 py-3 flex justify-center">
+        <div class="max-w-4xl w-full">
+            <div class="flex items-center justify-between">
+                
+                <img src="img/cyber1.png" class="w-32 h-15 m-5" alt="logo">
+                <div class=" ">
+                    <button type="button" class=" text-blue-800 sm:hidden">
+                        <i class="fas fa-bars fa-2x fill-current menu"></i>
+                    </button>
+                </div>
+                
+                <div class="hidden sm:flex">
+                <ul class="flex text-gray-600 ">
+                    <a href="index.html"><li class="font-bold mr-10 hover:text-orange-600"><a href="index.html">Home</a></li>
+                    <a href="product.html"><li class="font-bold mr-10 hover:text-orange-600"><a href="product.html">Product</a></li>      
+                    <a href="about.html"><li class="font-bold mr-10 hover:text-orange-600"><a href="about.html">About</a></li>
+                    <a href="contact.html"><li class="font-bold mr-10 hover:text-orange-600"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+                
+            </div>
+        </div>
+    </header>
+
+    <div class="bg-white w-full mt-20 hidden list animate-down">
+       
+        
+        <ul class="flex text-gray-600 flex-col pl-6 leading-10 mt-6">
+            <li class="font-bold mr-10 hover:text-orange-600"><a href="index.html">Home</a></li>
+            <li class="font-bold mr-10 hover:text-orange-600"><a href="product.html">Product</a></li>
+            <li class="font-bold mr-10 hover:text-orange-600"><a href="about.html">About</a></li>
+            <li class="font-bold mr-10 hover:text-orange-600"><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="pt-32 bg-[url('img/bg-img.png')] w-full h-screen " style="background-image:url('/img/bg-img.png') ; z-index: 2; margin-top: 100px;">
+        <h1 class="m-10 text-white text-3xl font-bold md:text-5xl ld:text-10xl" style="z-index: 1;">Full-Fledge Cloud and Offline Animal Hospital Management Software</h1>
+        <div class="w-1/2">
+            <p class="m-10 mt-20 text-white text-lg md:text-2xl">CyberVet's modern and user-friendly interface allows efficient work-flow that minimize errors, save time and money</p>
+        </div>
+       
+    </div>
+
+    <div class="bg-gray-100 flex justify-center">
+        <div class="w-1/2 text-center text-justify my-16 md:w-2/3">
+            <p class="text-sm text-gray-800 md:text-xl">We help Animal Healthcare Centers and Veterinary Hospitals go digital with our software-as-a service solution. Developed by a team of software engineers and veterinarians. The offline 
+                and cloud based nature of our software allows its usage in the most remote areas -with limited access to nternet infrastructure. Our software is able to manage patient medical record, 
+                automate client SMS and email reminder, manage appointment and monitor financial performance
+            </p>
+        </div>
+        
+    </div>
+
+    <div class="flex flex-col md:m-20">
+        <div class="md:flex justify-between">
+            <div class="mx-16 mt-20 md:w-1/3 md:px-20">
+                <div>
+                    <h1 class=" text-orange-500 text-lg font-bold">Power and Clean Dashboard</h1>
+                    <p>Quickly register new patient,access patient list, daily appointment and important patient chart</p>
+                </div>
+                <div class="mt-10 md:mt-40">
+                    <h1 class="text-orange-500 text-lg font-bold">Simple and Efficient Client and Patient Management</h1>
+                    <p>Register new client and patient, check patient in and out, document visit, edit, review patient and client information</p>
+                </div>
+            </div>
+            <div class="m-16 shadow-2xl md:w-1/2"><img src="img/patient-details.png" alt="Patient Details" ></div>
+        </div>
+
+        <div class="mx-16 md:flex flex-row-reverse md:px-20">
+            <div class="md:flex flex-col justify-center items-center md:w-1/3">
+                <h1 class="text-orange-500 text-lg font-bold">Comprehensive Electronic Animal Health Record</h1>
+                <p>Document clinic encounters with ease Digitally capture cclient complan, vitals, treatment plan and request imaging and laboratory test on the go.</p>
+            </div>
+            <div class="m-16 shadow-2xl md:w-1/2" ><img src="img/medical-record.png" alt="Medical Record"></div>
+        </div>
+
+        <div class="mx-16 md:flex">
+            <div class="md:w-1/3 md:mt-20">
+                <div>
+                    <h1 class="text-orange-500 text-lg font-bold">Appointment Schedule</h1>
+                    <p>Schedule, review and manage all your clinics's appointment seamlessly. Set client SMS and Email reminders for appointment.</p>
+                </div>
+                <div class="mt-10 md:mt-40">
+                    <h1 class="text-orange-500 text-lg font-bold">Automated Advance Reminder System</h1>
+                    <p>Set client SMS amd Email reminder for vaccination, Routine deworming, appontment, treatment, follow up.</p>
+                </div>
+            </div>
+                <div class="m-16 shadow-2xl md:w-1/2"><img src="/img/new-appointment.png" alt="New Appointment"></div>
+            </div>
+
+        <div class="mx-16 md:flex flex-row-reverse">
+            <div class="md:w-1/3 md:mt-20 md:flex flex-col justify-center items-center ">
+                <h1 class="text-orange-500 text-lg font-bold" >Clinical Calculator</h1>
+                    <p>Simple and Straightforward Dosage Calculator</p>
+            </div>
+            <div class="m-16 shadow-2xl md:w-1/2"><img src="img/dosage.png" alt="Drug Dossage Calculatoe"></div>
+        </div>
+
+        <div class="mx-16  md:flex">
+            <div class="md:w-1/3 md:mt-20">
+                <div>
+                    <h1 class="text-orange-500 text-lg font-bold">Laboratory and Imaging</h1>
+                    <p>Generate and process imaging and laboratory test request form. Receive imaging and lab test results directed into patient's portal</p>
+                </div>
+                <div class="mt-10 md:mt-40">
+                    <h1 class="text-orange-500 text-lg font-bold">Pet Boarding</h1>
+                    <p>Document,track and manage your clients and pet's boarding history with our digital forms customised to help you deliver the best services.</p>
+                </div>
+            </div>
+            <div class="m-16 shadow-2xl md:w-1/2"><img src="img/haematology.png" alt="Haematology"></div>
+        </div>
+
+        <div class="mx-16 md:flex flex-row-reverse">
+            <div class="md:w-1/3 md:mt-20">
+                <h1 class="text-orange-500 text-lg font-bold">Staff Profile and Access Control</h1>
+                <p>Capture staff information, review staff performance and control system access according to roles</p>
+            </div>
+            <div class="m-16 shadow-2xl md:w-1/2"><img src="img/added.png" alt="New Staff added"></div>
+        </div>
+
+        <div class="mx-16 md:flex">
+            <div class="md:mt-20">
+                <div>
+                    <h1 class="text-orange-500 text-lg font-bold">Fanacial Manger</h1>
+                    <p>Monitor daily, monthly and yearly financial performance. Track income and outstanding medical bills</p>
+                </div>
+                <div class="mt-10 md:mt-20">
+                    <h1 class="text-orange-500 text-lg font-bold">Metrics Report</h1>
+                    <p>Review visual representation of important and animal health statistics and access your hospital's operation performance.</p>
+                </div>
+            </div>
+            <div class="m-16 shadow-2xl md:w-1/2"><img src="img/income.png" alt="Income Analysis"></div>
+        </div>
+        </div>
+
+
+    <div class="bg-blue-800 w-screen mt-10">
+        <h1 class="text-white font-bold text-lg text-center px-20 pt-20 md:text-left md:text-3xl">Multiple plans starting at &#8358 0/Month <br> Go paperless in no time  </h1>
+       <div class="flex justify-center pb-16 px-20 md:justify-start">
+         <button class="bg-white font-bold ml-6 text-gray-800 text-md py-3 px-6 mt-5 rounded-full hover:shadow-2xl mb-5">REQUEST A DEMO</button>
+       </div>
+       
+    </div>
+
+
+    <div class="bg-blue-100 w-full flex flex-col md:flex">
+        <div class="ml-10 mt-16 text-gray-800 md:flex flex-row justify-between mr-20">
+            <div>
+                <h1 class="text-blue-900 font-bold text-lg mb-6">CYBERVET TECHNOLOGIES</h1>
+                <ul class="leading-8">
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Terms Of Services</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+
+            <div class="mt-10 md:mt-0">
+                <h1 class="text-blue-900 font-bold text-lg mb-6">ADDRESS</h1>
+                <p>13, Zion Rd, Mowe, Ogun State</p>
+            </div>
+
+            <div class="mt-10 md:mt-0">
+                <h1 class="text-blue-900 font-bold text-lg mb-6">CONTACT US</h1>
+                <div class="leading-7">
+                    <div class="flex flex-row">
+                        <i class="fas fa-envelope"></i>
+                        <p class="ml-6">team@cybervetapp.com</p>
+                    </div>
+
+                    <div class="flex flex-row">
+                        <i class="fas fa-phone"></i>
+                        <p class="ml-6">07039770676</p>
+                    </div>
+
+                    <div class="flex flex-row">
+                        <i class="fas fa-phone"></i>
+                        <p class="ml-6">08147398772</p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="mt-10 md:mt-0">
+                <h1 class="text-blue-900 font-bold text-lg mb-6">CONTACT US</h1>
+                <div class="flex mb-20">
+                   <a href="https://instagram.com" class="transition duration-150 ease-out hover:ease-in"><i class="fa-brands fa-instagram-square fa-2x"></i></a> 
+                   <a href="https://facebook.com"> <i class="fa-brands fa-facebook fa-2x"></i></a>
+                   <a href="https://twitter.com"> <i class="fa-brands fa-twitter-square fa-2x"></i></a>
+                   <a href="https://linkedin.com"> <i class="fa-brands fa-linkedin fa-2x"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+    </body>
+    </html>
